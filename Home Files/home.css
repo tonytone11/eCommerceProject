@@ -12,3 +12,42 @@ html, body {
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
+
+/* Nav bar styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
