@@ -13,6 +13,21 @@
 </nav>
 <body>
     <h1> HELLO WORLD!!!! </h1>
+    <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="50"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
 </body>
 <footer class="footer-container">
     <p> Copyright &copy 2024 Created by Anthony </p>
