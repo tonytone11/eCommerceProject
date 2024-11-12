@@ -1,8 +1,8 @@
 /* Theming the website with a gradient of colors 
 and animating the background */
 html, body {
-    background: linear-gradient(45deg, #008ba0, #00a3a4, #00bca1, #00d493);
-    background-size: 800% 1000%;
+    background: linear-gradient(45deg, #008ba0, #00a3a4, #00bca1, #d000d4);
+    background-size: 1200% 1000%;
     animation: gradientAnimation 10s ease infinite;
     height: 100%;    
     margin: 0;
@@ -14,6 +14,19 @@ html, body {
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
+
+/* Nav bar styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Main Content styling */
 
@@ -27,19 +40,6 @@ html, body {
     padding: 5px;
     color: white;
 }
-
-
-
-/* Initial test i will be using color
-targeting them by ID */
-/* #colors1 { background-color:red ;}
-#colors2 { background-color:orange ;}
-#colors3 { background-color:yellow ;}
-#colors4 { background-color:green ;}
-#colors5 { background-color:blue ;}
-#colors6 { background-color:indigo ;}
-#colors7 { background-color:violet;}
-#colors8 { background-color:pink ;} */
 
 /* Setting up where the products will live */
 div {
@@ -67,7 +67,19 @@ button:hover {
     background-color: whitesmoke;
     border-radius: 5px;
 }
-
+/* Footer Styling */
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
 /* Responsivity Code */
 
 /* I had to start with tablet to make it work */
