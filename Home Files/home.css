@@ -1,7 +1,7 @@
 html, body {
-    background: linear-gradient(45deg, #008ba0, #00a3a4, #00bca1, #d000d4);
+    background: linear-gradient(45deg, #008ba0, #00a3a4, #d000d4);
     background-size: 1200% 1000%;
-    animation: gradientAnimation 10s ease infinite;
+    animation: gradientAnimation 8s ease infinite;
     height: 100%;    
     margin: 0;
 }
@@ -19,13 +19,15 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
-nav img{
-    height: 10rem;
-}
 nav a {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
+}
+
+nav img {
+    width: 8rem;
+    height: auto;
 }
 
 
@@ -46,11 +48,12 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: white;
+    position: relative;
 }
 footer a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 .625rem;
 }
