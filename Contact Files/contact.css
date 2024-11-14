@@ -19,13 +19,14 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
-nav img {
-    height: 10rem;
-}
 nav a {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
+}
+nav img {
+    width: 8rem;
+    height: auto;
 }
 
 
@@ -46,11 +47,12 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: white;
+    position: relative;
 }
 footer a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 .625rem;
 }
