@@ -19,6 +19,9 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
+nav img{
+    height: 10rem;
+}
 nav a {
     font-size: 2rem;
     text-decoration: none;

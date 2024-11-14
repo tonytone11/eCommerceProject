@@ -21,6 +21,9 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
+nav img {
+    height: 10rem;
+}
 nav a {
     font-size: 2rem;
     text-decoration: none;
@@ -49,7 +52,7 @@ div {
 }
 
 /* Resizing all images */
-img {
+div img {
     height: 10rem;
 }
 
@@ -88,7 +91,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    img {
+    div img {
         height: 8rem;
     }
 }
@@ -99,7 +102,7 @@ footer a {
         grid-template-columns: 1fr;
     }
 
-    img {
+    div img {
         height: 6rem;
     }
 
@@ -114,7 +117,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    img {
+    div img {
         height: 8rem;
     }
 }
@@ -125,7 +128,7 @@ footer a {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    img {
+    div img {
         height: 8rem;
     }
 
@@ -140,7 +143,7 @@ footer a {
         font-size: 2rem;
     }
 
-    img {
+    div img {
         height: 15rem;
     }
 
