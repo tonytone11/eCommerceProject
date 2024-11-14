@@ -29,19 +29,35 @@ nav img {
     height: auto;
 }
 
+/* Main body styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border: .125rem solid white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    padding: 1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.name-container, .phone-container, .email-container {
+    padding: .5rem;
+    margin: 0 0 1.125rem 0;
+}
+textarea {
+    padding: 2rem;
+}
+.submit-button {
+    padding: .5rem;
+    margin-top: 1.25rem;
+}
 
 footer {
     display: flex;
