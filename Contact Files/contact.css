@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 html, body {
     background: linear-gradient(45deg, #008ba0, #00a3a4, #00bca1, #d000d4);
     background-size: 1200% 1000%;
     animation: gradientAnimation 10s ease infinite;
     height: 100%;    
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* I want to credit Code Lounge for the youtube video that helped me */
@@ -18,15 +24,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1.25rem;
 }
 nav a {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: white;
-}
-nav img {
-    width: 8rem;
-    height: auto;
 }
 
 /* Main body styling */
@@ -34,19 +37,22 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: .125rem 0 4rem 0;
 }
-
+h1 {
+    padding: 1.25rem 0;
+}
 form {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    background-color: red;
-    border: .125rem solid white;
+    background-color: white;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
     border-radius: .5rem;
     padding: 2rem 1.5rem;
+    font-size: 1.125rem;
 }
-
+/* Contact form styling */
 .name-container, .phone-container, .email-container {
     padding: .5rem;
     margin: 0 0 1.125rem 0;
@@ -58,17 +64,21 @@ textarea {
     padding: .5rem;
     margin-top: 1.25rem;
 }
-
+/* Footer style */
 footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.2rem;
-    color: white;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem 0;
 }
-footer a {
+.footer-container { 
+    text-align: center;
     color: white;
+    font-size: 1.125rem;
+}
+.footer-nav a{
+    padding: 1.25rem 0;
     text-decoration: none;
-    margin: 0 .625rem;
+    color: white;
+    padding: 0 .625rem;
 }
