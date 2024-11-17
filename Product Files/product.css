@@ -3,19 +3,9 @@ and animating the background */
 html, body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #24305e;
-    /* background: linear-gradient(45deg, #008ba0, #00a3a4, #d000d4);
-    background-size: 1200% 1000%;
-    animation: gradientAnimation 8s ease infinite; */
     height: 100%;     
     margin: 0;
 }
-
-/* I want to credit Code Lounge for the youtube video that helped me */
-/* @keyframes gradientAnimation {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-} */
 
 /* Store Name styling*/
 .title-container {
