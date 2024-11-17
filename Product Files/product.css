@@ -37,7 +37,7 @@ nav {
     padding: 1.25rem;
 }
 nav a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
 }
@@ -132,10 +132,6 @@ footer {
 
 /* Running to issues with my background and this seemed to fix it */
 @media (min-width: 1024px) {
-    .title-container {
-        width: 22%;
-    }
-
     #products {
         grid-template-columns: repeat(4, 1fr);
     }
