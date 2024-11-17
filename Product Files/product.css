@@ -91,6 +91,10 @@ footer {
 
 /* I had to start with tablet to make it work */
 @media (max-width: 768px) {
+    .title-container {
+        width: 29%;
+    }
+
     #products {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -102,6 +106,10 @@ footer {
 
 /* Then mobile screens */
 @media (max-width: 488px) {
+    .title-container {
+        width: 52.5%;
+    }
+
     #products {
         grid-template-columns: 1fr;
     }
@@ -124,6 +132,10 @@ footer {
 
 /* Running to issues with my background and this seemed to fix it */
 @media (min-width: 1024px) {
+    .title-container {
+        width: 22%;
+    }
+
     #products {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -136,14 +148,30 @@ footer {
 /* Didn't want to leave out anyone w/4k screens */
 @media (min-width: 2560px) {
     h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
-
+    .line {
+        width: 25rem;
+        height: .5rem;
+    }
+    h2 {
+        font-size: 4rem;
+        width: 40rem;
+        padding-left: 5rem;
+    }
+    nav a{
+        font-size: 2.5rem;
+    }
     .item-container img {
         height: 15rem;
     }
-
+    h3 {
+        font-size: 2.5rem;
+    }
     p {
         font-size: 2rem;
+    }
+    .footer-nav a {
+        font-size: 2.5rem;
     }
 }
