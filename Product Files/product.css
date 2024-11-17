@@ -17,11 +17,11 @@ html, body {
     height: .25rem;
     background-color: #a8d0e6;
 }
-h1 {
+.title-container h1 {
     margin: 0;
     color: #f76c6c;
 }
-h2 {
+.title-container h2 {
     margin: 0;
     color: #f8e9a1;
     padding-left: 2rem;
