@@ -1,5 +1,4 @@
-/* Theming the website with a gradient of colors 
-and animating the background */
+/* Body theme */
 html, body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #24305e;
@@ -16,11 +15,11 @@ html, body {
     width: 13.75rem;
     border-radius: .5rem;
     height: .25rem;
-    background-color: #f76c6c;
+    background-color: #a8d0e6;
 }
 h1 {
     margin: 0;
-    color: #a8d0e6;
+    color: #f76c6c;
 }
 h2 {
     margin: 0;
@@ -29,6 +28,7 @@ h2 {
     width: 15rem;
     font-size: 2rem;
 }
+
 /* Nav bar styling */
 nav {
     display: flex;
@@ -43,28 +43,29 @@ nav a {
 }
 
 /* Main Content styling */
-
 /* Layout of the website is grid*/
 #products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    margin: 10px;
-    padding: 5px;
+    gap: .313rem;
+    margin: .625rem;
+    padding: .313rem;
 }
 
 /* Setting up where the products will live */
 .item-container {
-    margin: 5px;
+    margin: .25rem;
+    padding: .625rem;
     text-align: center;
     font-family: sans-serif;
     background-color: #374785;
+    color: white;
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 /* Resizing all images */
-div img {
-    height: 10rem;
+.item-container img {
+    height: 15rem;
 }
 
 /* Footer Styling */
@@ -94,7 +95,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    div img {
+    .item-container img {
         height: 8rem;
     }
 }
@@ -105,7 +106,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    div img {
+    .item-container img {
         height: 6rem;
     }
 }
@@ -116,7 +117,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    div img {
+    .item-container img {
         height: 8rem;
     }
 }
@@ -127,7 +128,7 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    div img {
+    .item-container img {
         height: 8rem;
     }
 }
@@ -138,15 +139,11 @@ footer {
         font-size: 2rem;
     }
 
-    div img {
+    .item-container img {
         height: 15rem;
     }
 
     p {
-        font-size: 2rem;
-    }
-
-    button {
         font-size: 2rem;
     }
 }
