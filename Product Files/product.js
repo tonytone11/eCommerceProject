@@ -1,22 +1,19 @@
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("mainImages.json")
-        .then(response => response.json())
-        .then(data => {
-            const product = document.getElementsByClassName(".product1");
-
-            const name = document.createElement("p");
-            name.textContent = mainImages.name;
-
-            const price = document.createElement("p");
-            price.textContent = mainImages.price;
-
-            const description = document.createElement("p");
-            description.textContent = mainImages.description;
-
-
-            product.appendChild(name);
-            product.appendChild(price);
-            product.appendChild(description);
-        })
-        .catch(error => console.error("Error fetching JSON data:", error));
-});
+fetch("mainImages.json")
+    .then(response => response.json())
+    .then(data => {
+        const myProducts = document.getElementById("products");
+        data.forEach(item => {
+            const productHTML = `
+            <div class="item-container">
+                <img src="${item.image}" alt="${item.name}" />
+                <h2>${item.name}</h2>
+                <p>${item.price}</p>
+                <p>${item.description}</p>
+            </div>
+            `;
+            myProducts.innerHTML += productHTML;
+        });
+    })
+    .catch(error => {
+        console.error("Error loading JSON data:", error);
+    });

@@ -34,7 +34,7 @@ nav img {
 /* Main Content styling */
 
 /* Layout of the website is grid*/
-.main-container {
+#products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px; 
@@ -89,7 +89,7 @@ footer a {
 
 /* I had to start with tablet to make it work */
 @media (max-width: 768px) {
-    .main-container {
+    #products {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -100,7 +100,7 @@ footer a {
 
 /* Then mobile screens */
 @media (max-width: 488px) {
-    .main-container{
+    #products {
         grid-template-columns: 1fr;
     }
 
@@ -115,7 +115,7 @@ footer a {
 
 /* A section between tablet and laptop screens */
 @media (min-width: 769px) and (max-width: 1023px) {
-    .main-container {
+    #products {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -126,7 +126,7 @@ footer a {
 
 /* Running to issues with my background and this seemed to fix it */
 @media (min-width: 1024px) {
-    .main-container {
+    #products {
         grid-template-columns: repeat(4, 1fr);
     }
 
