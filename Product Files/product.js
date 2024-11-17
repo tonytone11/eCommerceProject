@@ -6,7 +6,7 @@ fetch("mainImages.json")
             const productHTML = `
             <div class="item-container">
                 <img src="${item.image}" alt="${item.name}" />
-                <h2>${item.name}</h2>
+                <h3>${item.name}</h3>
                 <p>${item.price}</p>
                 <p>${item.description}</p>
             </div>
