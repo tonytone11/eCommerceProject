@@ -1,16 +1,31 @@
 html, body {
-    background: linear-gradient(45deg, #008ba0, #00a3a4, #d000d4);
-    background-size: 1200% 1000%;
-    animation: gradientAnimation 8s ease infinite;
-    height: 100%;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #24305e;
+    height: 100%;     
     margin: 0;
 }
 
-/* I want to credit Code Lounge for the youtube video that helped me */
-@keyframes gradientAnimation {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
+/* Store Name styling*/
+.title-container {
+    margin: auto;
+    width: 15%;
+}
+.line {
+    width: 13.75rem;
+    border-radius: .5rem;
+    height: .25rem;
+    background-color: #a8d0e6;
+}
+h1 {
+    margin: 0;
+    color: #f76c6c;
+}
+h2 {
+    margin: 0;
+    color: #f8e9a1;
+    padding-left: 2rem;
+    width: 15rem;
+    font-size: 2rem;
 }
 
 /* Nav bar styling */
@@ -18,16 +33,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1.25rem;
 }
 nav a {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: white;
 }
-nav img {
-    width: 8rem;
-    height: auto;
-}
 
 
 
@@ -43,16 +55,21 @@ nav img {
 
 
 
+/* Footer style */
 footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.2rem;
-    color: white;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem 0;
 }
-footer a {
+.footer-container { 
+    text-align: center;
     color: white;
+    font-size: 1.125rem;
+}
+.footer-nav a{
+    padding: 1.25rem 0;
     text-decoration: none;
-    margin: 0 .625rem;
+    color: white;
+    padding: 0 .625rem;
 }
