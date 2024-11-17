@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Contact Files/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tony's Shop</title>
 </head>
 <header class="title-container">
@@ -19,20 +20,26 @@
 <body>
     <main>
         <h1>Contact Us</h1>
-        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+        <form id="contact" action="mailto:your_email@example.com" method="post" enctype="text/plain">
             <label for="name">Name:</label>
-            <input class="name-container" type="text" id="name" name="name" required minlength="2" maxlength="50">
-            
-            <label for="phone">Phone Number:</label>
-            <input class="phone-container" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input class="name-container" type="text" id="name" name="name" required minlength="2" maxlength="50" required>
             
             <label for="email">Email:</label>
             <input class="email-container" type="email" id="email" name="email" required>
             
+            <label for="department">What Do You Need Help With?</label>
+            <select class="department" name="department" required>
+                <option value="" disabled selected>Select the Department</option>
+                <option value="console">Consoles</option>
+                <option value="controller">Controllers</option>
+                <option value="headset">Headset</option>
+                <option value="pc-accessories">PC Accessories</option>
+            </select>
+
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments"></textarea>
             
-            <input class="submit-button" type="submit" value="Send">
+            <input class="submit-button" type="submit" action="/submit" value="Send">
         </form>
     </main>
 </body>
@@ -45,7 +52,7 @@
     </section>
     <section class="social- media-links">
         <a href="https://www.instagram.com/anth.ony__/" class="fa fa-instagram"></a>
-        <a href="mailto:anthonychen711@gmail.com" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/anthony-montesdeoca-7b4b6532b/" class="fa fa-linkedin"></a>
         <a href="mailto:anthony_chen97@yahoo.com" class="fa fa-yahoo"></a>
     </section>
 </footer>
