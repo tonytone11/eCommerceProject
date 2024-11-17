@@ -12,10 +12,10 @@
         "description": "Wireless elite Xbox gaming controller"
     },
     {
-        "image": "/images/xboxHeadset.png",
+        "image": "/images/xboxHeadset2.png",
         "name": "Xbox Gaming Headset",
-        "price": "$109.99",
-        "description": "Wireless Xbox gaming headset"
+        "price": "$59.99",
+        "description": "Wired Xbox gaming headset"
     },
     {
         "image": "/images/xboxBundle.png",
@@ -24,15 +24,15 @@
         "description": "Xbox Series X 1TB console"
     },
     {
-        "image": "/images/ps5Controller.png",
+        "image": "/images/ps5Controller2.png",
         "name": "PS5 Controller",
         "price": "74.99",
         "description": "DualSense Wireless controller"
     },
     {
-        "image": "/images/ps5Headset.png",
+        "image": "/images/ps5Headset2.png",
         "name": "PS5 Headset",
-        "price": "$94.99",
+        "price": "$149.99",
         "description": "PULSE 3D Wireless gaming headset"
     },
     {
