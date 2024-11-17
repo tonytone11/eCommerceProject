@@ -49,6 +49,7 @@ main {
 }
 main h1 {
     margin: 3rem 0;
+    color: #f76c6c;
 }
 form {
     width: 90%;
@@ -96,4 +97,44 @@ footer {
     text-decoration: none;
     color: white;
     padding: 0 .625rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .title-container {
+        width: fit-content;
+    }
+
+    form {
+        width: 85%;
+    }
+}
+
+@media (max-width: 488px) {
+    .title-container {
+        width:  fit-content;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+    .title-container {
+        width:  fit-content;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title-container {
+        width:  fit-content;
+    }
+
+    form {
+        width: 90%;
+    }
 }
