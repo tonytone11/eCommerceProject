@@ -87,6 +87,39 @@ footer {
     padding: 0 .625rem;
 }
 
+/* Icon style */
+.fa {
+    padding: 1rem;
+    margin: 1rem 1rem 0 1rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+  /* Instagram color */
+.fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+}
+
+  /* Google color */
+.fa-linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+  /* Yahoo color */
+.fa-yahoo {
+    background: #720e9e;
+    color: white;
+}
+
 /* Responsivity Code */
 
 /* I had to start with tablet to make it work */
