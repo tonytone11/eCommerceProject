@@ -49,7 +49,7 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-.hero::before {
+.hero::before { /* ensures that styling only happens to hero before text */
     content: "";
     position: absolute;
     top: 0;
