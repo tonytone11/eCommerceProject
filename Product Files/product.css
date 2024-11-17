@@ -92,7 +92,7 @@ footer {
 /* I had to start with tablet to make it work */
 @media (max-width: 768px) {
     .title-container {
-        width: 29%;
+        width: fit-content;
     }
 
     #products {
@@ -107,7 +107,7 @@ footer {
 /* Then mobile screens */
 @media (max-width: 488px) {
     .title-container {
-        width: 52.5%;
+        width: fit-content;
     }
 
     #products {

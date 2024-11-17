@@ -8,7 +8,7 @@ html, body {
 /* Store Name styling*/
 .title-container {
     margin: auto;
-    width: 15%;
+    width: fit-content;
 }
 .line {
     width: 13.75rem;
