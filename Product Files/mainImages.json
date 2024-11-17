@@ -3,72 +3,72 @@
         "image": "/images/xboxController.png",
         "name": "Xbox Controller",
         "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "description": "Wireless Xbox gaming controller"
     },
     {
         "image": "/images/xboxElite.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "Xbox Elite Serie 2",
+        "price": "$179.99",
+        "description": "Wireless elite Xbox gaming controller"
     },
     {
         "image": "/images/xboxHeadset.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "Xbox Gaming Headset",
+        "price": "$109.99",
+        "description": "Wireless Xbox gaming headset"
     },
     {
         "image": "/images/xboxBundle.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "Xbox Series X",
+        "price": "$499.99",
+        "description": "Xbox Series X 1TB console"
     },
     {
         "image": "/images/ps5Controller.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "PS5 Controller",
+        "price": "74.99",
+        "description": "DualSense Wireless controller"
     },
     {
         "image": "/images/ps5Headset.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "PS5 Headset",
+        "price": "$94.99",
+        "description": "PULSE 3D Wireless gaming headset"
     },
     {
         "image": "/images/ps5Bundle.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "PlayStation 5",
+        "price": "$499.99",
+        "description": "PlayStation 5 Slim Console"
     },
     {
         "image": "/images/switchBundle.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "Nintendo Switch",
+        "price": "$299.99",
+        "description": "Mario Kart 8 Deluxe Bundle"
     },
     {
         "image": "/images/switchJoySticks.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "Switch Joy-Con",
+        "price": "$79.99",
+        "description": "Wireless controllers (L/R)"
     },
     {
         "image": "/images/switchController.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "PowerA Controller",
+        "price": "$56.99",
+        "description": "Enhanced Wireless controller"
     },
     {
         "image": "/images/ROGAlly.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "ASUS ROG Ally",
+        "price": "$649.99",
+        "description": "Handheld gaming"
     },
     {
         "image": "/images/gamingKeyboardBundle.png",
-        "name": "Xbox Controller",
-        "price": "$59.99",
-        "description": "Red wireless xbox gaming controller"
+        "name": "8BitDo Keyboard",
+        "price": "$99.99",
+        "description": "Retro Mechanical Keyboard with Joystick"
     }
 ]
